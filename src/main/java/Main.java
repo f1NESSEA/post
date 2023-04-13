@@ -6,6 +6,6 @@ public class Main {
         post.patronomyc = "Иванович";
         post.phone = "+7 (999)-999-99-99";
         post.surname = "Иванов";
-        post.subscription = "true";
+        post.subscription = Boolean.parseBoolean("true");
     }
 }
